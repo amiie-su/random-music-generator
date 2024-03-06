@@ -8,7 +8,7 @@ export default class Chords {
      * @constructor
      */
     constructor() {
-        this.synth = new Tone.PluckSynth().toDestination();
+        this.synth = new Tone.PolySynth().toDestination();
     }
 
     /**

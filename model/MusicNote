@@ -1,0 +1,15 @@
+class MusicNote {
+    constructor(tone,octave){
+        this.tone = tone;
+        this.octave = octave;
+        this.noteName = {}; // {scale: string}
+    }
+
+    note(scale){
+
+        // store noteName in object;
+        return "C#4" // given scale, return note in string form based on tone and octave
+    }
+}
+
+//TODO: track notes, remove duplicates

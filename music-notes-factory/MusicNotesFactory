@@ -1,0 +1,13 @@
+class MusicNotesFactory{
+
+        constructor(){
+            this.musicNotes = {} // {noteInferece : MusicNote Object};
+        }
+
+        getMusicNote(noteInference){
+            // if inference stored in musicNotes
+            return this.musicNotes.getMusicNote(noteInference);
+
+        }
+
+}
